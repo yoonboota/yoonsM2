@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+#container{}
+
+.mainSlider{
+	position:relative;
+}
+.mainSlider img{
+	width:100%;
+	display:block;  
+	/*공백이생길경우 블락주면 공백사라짐*/
+}
+
+
+.sliderBtnL{
+	position:absolute;
+	bottom:5px;
+	left:5px;
+}
+.sliderBtnL li{
+	float:left;
+	height:16px;
+	width:16px;
+	background:url(../images/main/blet_visual.png) no-repeat;
+	text-indent:-9999px;
+	margin-right:3px;
+}
+
+.sliderBtnL li:first-child{
+	background-position:0 -16px;
+}
+
+
+.sliderBtnL li a{}
+
+
+
+.sliderBtnR{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.sliderBtnR li{
+	width:45px;
+	height:45px;
+	background:url(../images/main/btn_visual_cnt.png) no-repeat;
+	text-indent:-9999px;
+	float:left;
+	margin-left:1px;
+	
+}
+
+.sliderBtnR li:nth-child(2){
+	background-position:-46px 0;
+}
+.sliderBtnR li:last-child{
+	background-position:-92px 0;
+}
+
+
+.sliderBtnR li a{}
+
+
+
+/*MainCon01*/
+
+.mainCon01{}
+.mainCon01 h2{
+	text-align:center;
+	margin:20px 0;
+}
+.mainCon01 h2 img{
+	width:150px;
+	
+}
+
+.mainCon01 ul{}
+.mainCon01 li{
+	background-size:cover;
+	padding:5%;
+	background-position:center center;
+	margin-top:2px;
+}
+.mainCon01 li a{
+	color:#fff;
+}
+.mainCon01 li h3{
+	padding-top:35%;
+}
+.mainCon01 li p{}
+
+
+.con01Menu01{
+	background:url(../images/main/brandSite_img01.jpg) no-repeat;
+}
+.con01Menu02{
+	background:url(../images/main/brandSite_img02.jpg) no-repeat;
+	
+}
+.con01Menu03{
+	background:url(../images/main/brandSite_img03.jpg) no-repeat;
+	
+}
+
+
+
+
+/*mainCon02*/
+
+.mainCon02{}
+.mainCon02 li{
+	width:calc(50% - 1px);
+	float:left;
+	background:#1c97fe;
+	margin-top:2px;
+	margin-right:2px;
+}
+.mainCon02 li a{}
+
+.mainCon02 li:nth-child(2n){
+	margin-right:0;
+}
+
+.mainCon02 li img{
+	width:100%;
+	display:block;
+
+}
+
+.con02Text{
+	width:100%;
+	color:#fff;
+	font-size:12px;
+	padding:5%;
+	box-sizing:border-box;
+}
+.con02Text span{
+	display:block;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+
+
+
+/*---MainCon03---*/
+
+
+.mainCon03{}
+.mainCon03 h2{
+	width:100%;
+	display:block;
+	margin:15px auto;
+	text-align: center;
+}
+.mainCon03 h2 img{
+	width:150px;
+}
+
+.pdtImg,.pdtText{
+	width:50%;
+
+}
+.pdtImg{
+	position:relative;
+}
+.pdtImg img{
+	max-width:100%;
+	max-height:100%;
+	position:absolute;
+	width:auto;
+	height:auto;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	margin:auto;
+}
+.pdtText{
+	background:#f1f1f1;
+	padding:20px;
+	box-sizing:border-box;
+	color:#333;
+	
+}
+.pdtText h3{}
+.pdtText p{
+	font-size:11px;
+}
+
+.pdtList a {
+	display:flex;
+	overflow:hidden;
+}
+
+
+
